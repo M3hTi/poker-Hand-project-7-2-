@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF8DC;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1, h2 {
+    color: #4169E1;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .card p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .deal-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4169E1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .deal-button:hover {
+    background-color: #1E90FF;
+  }
